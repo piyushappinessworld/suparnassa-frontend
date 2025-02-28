@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Discover() {
   return (
     <main
@@ -22,7 +20,7 @@ export default function Discover() {
           <div className="w-full flex flex-col items-end">
             {/* Description Paragraphs */}
             <div className="w-full md:w-[75%] mt-8 md:mt-10 space-y-6 text-[#999999]">
-              <p className="text-[14px] lg:px-[20px] leading-relaxed">
+              <p className="text-[14px] lg:text-[20px] leading-relaxed">
                 At SuparnaSSa, we believe that great design is a blend of
                 creativity, functionality, and purpose. Founded in 2010 by Mr.
                 Ashok Kumar, a seasoned Interior Designer, and Mrs. Kavitha
@@ -30,14 +28,14 @@ export default function Discover() {
                 150+ spaces into inspiring realities.
               </p>
 
-              <p className="text-[14px] lg:px-[20px] leading-relaxed">
+              <p className="text-[14px] lg:text-[20px] leading-relaxed">
                 From luxurious residential bungalows to sophisticated office
                 spaces, boutiques, apartments, and restaurants, we bring a
                 unique design perspective to every project. Our approach
                 encourages "outside-the-box" thinking, ensuring innovative,
                 customized solutions tailored to our clients' needs.
               </p>
-              <p className="text-[14px] lg:px-[20px] leading-relaxed">
+              <p className="text-[14px] lg:text-[20px] leading-relaxed">
                 Let's bring your dream space to life—with elegance, precision,
                 and passion.
               </p>
