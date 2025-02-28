@@ -78,9 +78,9 @@ const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <div className="flex md:hidden items-center">
-              <button
+              <div
                 onClick={toggleMenu}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-amber-200 focus:outline-none"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 focus:outline-none"
               >
                 <span className="sr-only">Open main menu</span>
                 {isMenuOpen ? (
@@ -93,7 +93,7 @@ const Navbar = () => {
                     height={34}
                   />
                 )}
-              </button>
+              </div>
             </div>
           </div>
         </div>
