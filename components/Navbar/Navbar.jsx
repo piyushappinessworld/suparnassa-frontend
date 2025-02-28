@@ -26,9 +26,12 @@ const Navbar = () => {
         style={{ backgroundImage: `url("/navbar/banner.png")` }}
         className="bg-cover bg-center px-[80px] py-[14px] text-center border-b border-[rgba(115,115,115,0.37)]"
       >
-        <p className="text-[14px] flex justify-center items-center gap-[6px] text-[#242424]">
+        <p className="text-[12px] lg:text-[14px] flex justify-center items-center gap-[6px] text-[#242424]">
           ✨Discover Your Dream Property with Suparnassa
-          <Link href="/learn-more" className="underline ml-1 text-[#CE8943]">
+          <Link
+            href="/learn-more"
+            className="text-[12px] lg:text-[14px] underline ml-1 text-[#CE8943]"
+          >
             Learn More
           </Link>
         </p>
