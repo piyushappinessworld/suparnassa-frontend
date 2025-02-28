@@ -54,7 +54,7 @@ const Solutions = () => {
           <div className="w-[270px] h-[132px] bg-white border-1 border-black rounded-[8px] px-[10px] py-[16px] flex flex-col justify-center items-center gap-2">
             <div className="flex items-center justify-center">
               <Image
-                src="/banner/solution (1).svg"
+                src="/banner/solution (2).svg"
                 alt="logo"
                 width={54}
                 height={54}
@@ -68,7 +68,7 @@ const Solutions = () => {
           <div className="w-[270px] h-[132px] bg-white border-1 border-black rounded-[8px] px-[10px] py-[16px] flex flex-col justify-center items-center gap-2">
             <div className="flex items-center justify-center">
               <Image
-                src="/banner/solution (1).svg"
+                src="/banner/solution (3).svg"
                 alt="logo"
                 width={54}
                 height={54}
@@ -82,7 +82,7 @@ const Solutions = () => {
           <div className="w-[270px] h-[132px] bg-white border-1 border-black rounded-[8px] px-[10px] py-[16px] flex flex-col justify-center items-center gap-2">
             <div className="flex items-center justify-center">
               <Image
-                src="/banner/solution (1).svg"
+                src="/banner/solution (4).svg"
                 alt="logo"
                 width={54}
                 height={54}
@@ -96,7 +96,7 @@ const Solutions = () => {
           <div className="w-[270px] h-[132px] bg-white border-1 border-black rounded-[8px] px-[10px] py-[16px] flex flex-col justify-center items-center gap-2">
             <div className="flex items-center justify-center">
               <Image
-                src="/banner/solution (1).svg"
+                src="/banner/solution (5).svg"
                 alt="logo"
                 width={54}
                 height={54}
