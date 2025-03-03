@@ -1,6 +1,8 @@
-import Banner from "@/components/Banner/Banner";
-import Discover from "@/components/Discover/Discover";
-import Solutions from "@/components/Solutions/Solutions";
+import Banner from "@/components/HomePage/Banner/Banner";
+import Discover from "@/components/HomePage/Discover/Discover";
+import Properties from "@/components/HomePage/Properties/Properties";
+import Reviews from "@/components/HomePage/Reviews/Reviews";
+import Solutions from "@/components/HomePage/Solutions/Solutions";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Banner />
       <Discover />
       <Solutions />
+      <Properties />
+      <Reviews />
     </div>
   );
 }
