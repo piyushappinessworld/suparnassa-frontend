@@ -61,8 +61,8 @@ const Navbar = () => {
               <Link href="/about-us" className={linkClass("/about-us")}>
                 About Us
               </Link>
-              <Link href="/project" className={linkClass("/project")}>
-                Project
+              <Link href="/projects" className={linkClass("/projects")}>
+                Projects
               </Link>
             </div>
 
