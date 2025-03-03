@@ -40,7 +40,7 @@ const Teams = () => {
 
           {/* Description */}
           <p className="w-2/3 text-[14px] md:text-[16px] font-medium text-[#999999] mb-[30px] md:mb-[50px]">
-            At Estatein, our success is driven by the dedication and expertise
+            At Suparnassa, our success is driven by the dedication and expertise
             of our team. Get to know the people behind our mission to make your
             real estate dreams a reality.
           </p>
