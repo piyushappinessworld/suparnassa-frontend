@@ -39,7 +39,7 @@ const Navbar = () => {
 
       {/* Navbar */}
       <nav className="bg-[#FFE4CF]">
-        <div className="w-full mx-auto py-[16px] px-10 sm:px-6 lg:px-[80px] border-b border-[rgba(115,115,115,0.37)]">
+        <div className="w-full mx-auto py-[16px] px-[16px] sm:px-6 lg:px-[80px] border-b border-[rgba(115,115,115,0.37)]">
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="flex items-center w-[133px]">
@@ -100,7 +100,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden">
+          <div className="md:hidden border-b border-[rgba(115,115,115,0.37)]">
             <div className="flex flex-col px-3 pt-2 pb-3 space-y-1 sm:px-4">
               <Link
                 href="/"

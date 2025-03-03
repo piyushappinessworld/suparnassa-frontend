@@ -26,12 +26,12 @@ const Journey = () => {
           </div>
 
           {/* Heading */}
-          <h2 className="text-[38px] font-boldsemibold text-[#242424] mb-[10px]">
+          <h2 className="text-[28px] md:text-[38px] font-semibold text-[#242424] mb-[8px] md:mb-[10px]">
             Our Journey
           </h2>
 
           {/* Description */}
-          <p className="text-[16px] font-medium text-[#999999] mb-[50px]">
+          <p className="text-[14px] md:text-[16px] font-medium text-[#999999] mb-[30px] md:mb-[50px]">
             Our story is one of continuous growth and evolution. We started as a
             small team with big dreams, determined to create a real estate
             platform that transcended the ordinary. Over the years, we've
@@ -46,10 +46,10 @@ const Journey = () => {
                 key={index}
                 className="bg-[#D0A88A] rounded-[10px] p-[20px] border-1 border-[#FFBE8B]"
               >
-                <p className="text-[30px] font-bold text-[#FFFFFF] mb-[2px]">
+                <p className="text-[24px] md:text-[30px] font-bold text-[#FFFFFF] mb-[2px]">
                   {stat.value}
                 </p>
-                <p className="text-[16px] text-[#FFFFFF] font-medium">
+                <p className="text-[14px] md:text-[16px] text-[#FFFFFF] font-medium">
                   {stat.label}
                 </p>
               </div>
