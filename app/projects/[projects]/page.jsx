@@ -13,14 +13,13 @@ const page = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `${process.env.NEXT_PUBLIC_API_URL}/properties/`
+          `${process.env.NEXT_PUBLIC_API_URL}/properties`
         );
         setData(response.data);
       } catch (err) {
         console.error("Error fetching properties:", err);
       }
     };
-
     fetchData();
   }, []);
 

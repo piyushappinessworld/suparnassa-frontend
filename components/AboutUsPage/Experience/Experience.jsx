@@ -19,7 +19,10 @@ const stats = [
 ];
 const Experience = () => {
   return (
-    <div id="experience" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]">
+    <div
+      id="experience"
+      className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]"
+    >
       <div className="">
         <div className="w-full">
           {/* Decorative elements */}
@@ -47,10 +50,10 @@ const Experience = () => {
                   Step 0{index + 1}
                 </div>
                 <div className="p-[30px] md:p-[40px] rounded-b-[10px] rounded-tr-[10px] border-1 border-[#262626] bg-[linear-gradient(120.79deg,#88292B_-49.01%,rgba(136,41,43,0)_13.65%)]">
-                  <p className="text-[18px] md:text-[20px] md:text-[20px] font-semibold text-[#242424] mb-[16px] md:mb-[24px]">
+                  <p className="text-[18px] md:text-[20px] font-semibold text-[#242424] mb-[16px] md:mb-[24px]">
                     {stat.value}
                   </p>
-                  <p className="text-[14px] md:text-[16px] md:text-[16px] text-[#999999] font-medium">
+                  <p className="text-[14px] md:text-[16px] text-[#999999] font-medium">
                     {stat.label}
                   </p>
                 </div>
