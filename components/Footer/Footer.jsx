@@ -241,24 +241,28 @@ export default function Footer() {
             <div className="flex space-x-4">
               <Link
                 href="/contact"
-                className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] mb-[10px] md:mb-0 flex items-center justify-center rounded-full"
+                aria-label="Facebook"
+                className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] flex items-center justify-center rounded-full"
               >
                 <FaFacebookF className="h-5 w-5 text-[#CE8943]" />
               </Link>
               <Link
                 href="/contact"
+                aria-label="LinkedIn"
                 className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] flex items-center justify-center rounded-full"
               >
                 <FaLinkedin className="h-5 w-5 text-[#CE8943]" />
               </Link>
               <Link
                 href="/contact"
+                aria-label="Twitter"
                 className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] flex items-center justify-center rounded-full"
               >
                 <FaTwitter className="h-5 w-5 text-[#CE8943]" />
               </Link>
               <Link
                 href="/contact"
+                aria-label="YouTube"
                 className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] flex items-center justify-center rounded-full"
               >
                 <FaYoutube className="h-5 w-5 text-[#CE8943]" />

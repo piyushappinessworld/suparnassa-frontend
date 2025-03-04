@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useRouter } from "next/navigation";
 import React from "react";
 
@@ -52,7 +52,6 @@ const page = () => {
             <div
               key={category.id}
               className="rounded-[18px] border border-[#5E362E] overflow-hidden cursor-pointer"
-              onClick={() => router.push(`/projects/${category.title}`)}
             >
               <div className="relative h-[165px] md:h-[291px] w-full p-[11px] md:p-[18px] ">
                 <img
@@ -65,12 +64,12 @@ const page = () => {
                 <h2 className="text-[16px] md:text-[26px] font-semibold text-[#242424]">
                   {category.title}
                 </h2>
-                <a
-                  href="#"
+                <p
+                  onClick={() => router.push(`/projects/${category.title}`)}
                   className="text-[#5E362E] text-[12px] md:text-[16px] font-semibold underline"
                 >
                   Learn More
-                </a>
+                </p>
               </div>
             </div>
           ))}
