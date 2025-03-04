@@ -57,10 +57,15 @@ const page = () => {
           <p>{segment} Porjects</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {data.map((category) => {
+          {data?.map((category) => {
             if (category.type == segment) {
               return (
                 <div
+                  onClick={() =>
+                    router.push(
+                      `/projects/${category.type}/${category.name}/${category._id}`
+                    )
+                  }
                   key={category._id}
                   className="rounded-[18px] border border-[#5E362E] overflow-hidden cursor-pointer"
                 >
@@ -75,14 +80,7 @@ const page = () => {
                     <h2 className="text-[16px] md:text-[26px] font-semibold text-[#242424]">
                       {category.name}
                     </h2>
-                    <p
-                      onClick={() =>
-                        router.push(
-                          `/projects/${category.type}/${category.name}/${category._id}`
-                        )
-                      }
-                      className="text-[#5E362E] text-[12px] md:text-[16px] font-semibold underline"
-                    >
+                    <p className="text-[#5E362E] text-[12px] md:text-[16px] font-semibold underline">
                       Learn More
                     </p>
                   </div>
