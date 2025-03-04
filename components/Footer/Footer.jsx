@@ -92,15 +92,7 @@ export default function Footer() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/"
-                      className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
-                    >
-                      Hero Section
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
+                      href="/#who-are-we"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Who we are
@@ -108,7 +100,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/#services"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Service
@@ -116,7 +108,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/#projects"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Projects
@@ -124,7 +116,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/#testimonials"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Testimonials
@@ -141,7 +133,7 @@ export default function Footer() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/about-us"
+                      href="/about-us#journey"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Our Story
@@ -149,15 +141,23 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/our-works"
+                      href="/about-us#values"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
-                      Our Works
+                      Our Values
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about-us"
+                      href="/about-us#achievements"
+                      className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
+                    >
+                      Our Achievements
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about-us#experience"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       How It Works
@@ -165,18 +165,10 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/about-us"
+                      href="/about-us#team"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Our Team
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about-us"
-                      className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
-                    >
-                      Our Clients
                     </Link>
                   </li>
                 </ul>
@@ -185,15 +177,39 @@ export default function Footer() {
               {/* Column 3 */}
               <div className="w-[300px] block">
                 <h3 className="font-medium text-[#242424] text-[16px] mb-4">
-                  Project
+                  Projects
                 </h3>
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/project"
+                      href="/projects/Residential"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
-                      Gallery
+                      Residential Projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/projects/Commercial"
+                      className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
+                    >
+                      Commercial Projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/projects/Office"
+                      className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
+                    >
+                      Office Projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/projects/Hospitality"
+                      className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
+                    >
+                      Hospitality Projects
                     </Link>
                   </li>
                 </ul>
@@ -207,7 +223,7 @@ export default function Footer() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/contact"
+                      href="/contact#form"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Contact Form
@@ -215,7 +231,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/contact"
+                      href="/contact#office"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Our Offices
@@ -233,9 +249,6 @@ export default function Footer() {
             <p className="text-[#242424] text-[14px] font-medium">
               &copy;2025 Suparnassa. All Rights Reserved.
             </p>
-            <Link href="/" className="font-medium text-[#242424] text-[14px]">
-              Terms & Conditions
-            </Link>
           </div>
           <div className="flex flex-col md:flex-row items-center gap-4">
             <div className="flex space-x-4">

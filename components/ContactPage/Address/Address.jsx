@@ -2,7 +2,7 @@ import React from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 const Address = () => {
   return (
-    <div className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]">
+    <div id="office" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]">
       <div className="">
         <div className="w-full">
           {/* Decorative elements */}

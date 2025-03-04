@@ -3,7 +3,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[70px]">
+    <div id="form" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[70px]">
       <div className="">
         <div className="w-full">
           {/* Decorative elements */}

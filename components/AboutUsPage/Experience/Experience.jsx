@@ -19,7 +19,7 @@ const stats = [
 ];
 const Experience = () => {
   return (
-    <div className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]">
+    <div id="experience" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]">
       <div className="">
         <div className="w-full">
           {/* Decorative elements */}

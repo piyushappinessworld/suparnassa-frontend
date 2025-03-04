@@ -117,7 +117,7 @@ const Navbar = () => {
                 About Us
               </Link>
               <Link
-                href="/project"
+                href="/projects"
                 className={linkClass("/project")}
                 onClick={() => setIsMenuOpen(false)}
               >

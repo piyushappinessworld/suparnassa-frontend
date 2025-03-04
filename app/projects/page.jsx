@@ -4,6 +4,7 @@ import React from "react";
 
 const page = () => {
   const router = useRouter();
+
   const projectCategories = [
     {
       id: 1,
@@ -65,7 +66,9 @@ const page = () => {
                   {category.title}
                 </h2>
                 <p
-                  onClick={() => router.push(`/projects/${category.title}`)}
+                  onClick={() =>
+                    router.push(`/projects/${category.title.split(" ")[0]}/`)
+                  }
                   className="text-[#5E362E] text-[12px] md:text-[16px] font-semibold underline"
                 >
                   Learn More

@@ -133,7 +133,7 @@ export default function Reviews() {
   const visibleTestimonials = getVisibleTestimonials();
 
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="testimonials">
       <div className="w-full mx-auto px-[16px] py-[24px] md:px-[80px] md:py-[100px]">
         {/* Decorative elements */}
         <div className="mb-1 ml-[-8px]">

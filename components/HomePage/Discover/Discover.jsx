@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Discover() {
   return (
     <main
+      id="who-are-we"
       style={{ backgroundImage: `url("/banner/discover.svg")` }}
       className="bg-contain bg-left bg-no-repeat w-full h-auto"
     >
@@ -43,7 +44,10 @@ export default function Discover() {
               </p>
             </div>
             <div className="w-full md:w-[75%] mt-5 md:mt-12">
-              <Link href="/contact" className="bg-[#CE8943] text-white font-medium py-3 px-10 rounded-md transition duration-300">
+              <Link
+                href="/contact"
+                className="bg-[#CE8943] text-white font-medium py-3 px-10 rounded-md transition duration-300"
+              >
                 Discover Us
               </Link>
             </div>

@@ -37,7 +37,7 @@ const Solutions = () => {
     },
   ];
   return (
-    <section className="p-[40px] md:p-[80px] bg-[#D0A88A]">
+    <section id="services" className="p-[40px] md:p-[80px] bg-[#D0A88A]">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-[28px] md:text-[46px] font-semibold text-[#5E362E] mb-3">

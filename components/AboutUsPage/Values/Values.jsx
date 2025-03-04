@@ -1,6 +1,6 @@
 export default function Values() {
   return (
-    <main className="bg-white px-[16px] md:px-[80px] py-[20px] md:py-[70px]">
+    <main id="values" className="bg-white px-[16px] md:px-[80px] py-[20px] md:py-[70px]">
       <div className="w-full mx-auto">
         <div className="flex flex-col lg:flex-row gap-[30px] md:gap-[60px] items-center">
           {/* Left side - Title and description */}

@@ -25,7 +25,7 @@ const teamMembers = [
 ];
 const Teams = () => {
   return (
-    <div className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:pt-[35px] md:pb-[70px]">
+    <div id="team" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:pt-[35px] md:pb-[70px]">
       <div className="">
         <div className="w-full">
           {/* Decorative elements */}

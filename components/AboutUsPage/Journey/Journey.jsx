@@ -16,7 +16,7 @@ const stats = [
 ];
 const Journey = () => {
   return (
-    <div className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[70px]">
+    <div id="journey" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[70px]">
       <div className="flex flex-col-reverse lg:flex-row gap-[20px] md:gap-[60px] items-center">
         {/* Left side - Content */}
         <div className="lg:w-1/2">
