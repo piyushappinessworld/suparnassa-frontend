@@ -51,6 +51,9 @@ const page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projectCategories.map((category) => (
             <div
+              onClick={() =>
+                router.push(`/projects/${category.title.split(" ")[0]}/`)
+              }
               key={category.id}
               className="rounded-[18px] border border-[#5E362E] overflow-hidden cursor-pointer"
             >
@@ -65,12 +68,7 @@ const page = () => {
                 <h2 className="text-[16px] md:text-[26px] font-semibold text-[#242424]">
                   {category.title}
                 </h2>
-                <p
-                  onClick={() =>
-                    router.push(`/projects/${category.title.split(" ")[0]}/`)
-                  }
-                  className="text-[#5E362E] text-[12px] md:text-[16px] font-semibold underline"
-                >
+                <p className="text-[#5E362E] text-[12px] md:text-[16px] font-semibold underline">
                   Learn More
                 </p>
               </div>
