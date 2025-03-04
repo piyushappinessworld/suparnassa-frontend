@@ -67,15 +67,15 @@ const Address = () => {
                     href="tel:+919845115539"
                     className="inline-flex items-center bg-gray-900 text-white rounded-full px-6 py-3 gap-2"
                   >
-                    <img src="/address/phone.svg" alt="stars" className="" />
-                    9845115539
+                    <img src="/address/location.svg" alt="stars" className="" />
+                    +91-9845115539
                   </a>
 
                   <a
                     href="#"
                     className="inline-flex items-center bg-gray-900 text-white rounded-full px-6 py-3 gap-2"
                   >
-                    <img src="/address/location.svg" alt="stars" className="" />
+                    <img src="/address/phone.svg" alt="stars" className="" />
                     Bangalore
                   </a>
                 </div>

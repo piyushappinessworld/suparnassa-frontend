@@ -17,7 +17,7 @@ const contactCards = [
   },
   {
     icon: "/cards/c2.svg",
-    content: "+91 9845115539",
+    content: "+91-9845115539",
     link: "tel:+919845115539",
   },
   {
@@ -100,7 +100,12 @@ const Cards = () => {
                   </div>
                 </div>
               ) : (
-                <div className="text-[16px] text-center font-medium">{card.content}</div>
+                <a
+                  href={card.link}
+                  className="text-[16px] text-center font-medium"
+                >
+                  {card.content}
+                </a>
               )}
 
               <div className="absolute top-4 right-4">
