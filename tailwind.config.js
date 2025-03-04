@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        urbanist: ["var(--font-urbanist)", "sans-serif"],
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",

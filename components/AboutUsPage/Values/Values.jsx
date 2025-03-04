@@ -1,5 +1,3 @@
-import { Star, GraduationCap, Users } from "lucide-react";
-
 export default function Values() {
   return (
     <main className="bg-white px-[16px] md:px-[80px] py-[20px] md:py-[70px]">
