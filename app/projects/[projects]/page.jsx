@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
 
@@ -53,13 +54,17 @@ const page = () => {
 
       <main className="mx-auto px-[16px] pb-[30px] md:px-[80px] md:pb-[80px] w-full">
         <div className="flex items-center gap-2 text-[14px] my-[40px]">
-          <p className="text-[#969696]">Home</p>
+          <Link href="/" className="text-[#969696]">
+            Home
+          </Link>
           <img
             src="/projects/right.svg"
             alt="stars"
             className="text-[#969696]"
           />
-          <p className="text-[#969696]">Projects</p>
+          <Link href="/projects" className="text-[#969696]">
+            Projects
+          </Link>
           <img
             src="/projects/right.svg"
             alt="stars"

@@ -60,7 +60,7 @@ export default function Banner() {
               our listings to find the home that matches your dreams.
             </p>
             <Link
-              href="/properties"
+              href="/projects"
               className="bg-[#CE8943] text-[14px] text-white px-[25px] lg:px-[20px] py-[14px] rounded-[8px] inline-block transition-colors"
             >
               Learn More

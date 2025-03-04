@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Discover() {
   return (
     <main
@@ -41,9 +43,9 @@ export default function Discover() {
               </p>
             </div>
             <div className="w-full md:w-[75%] mt-5 md:mt-12">
-              <button className="bg-[#CE8943] text-white font-medium py-3 px-10 rounded-md transition duration-300">
+              <Link href="/contact" className="bg-[#CE8943] text-white font-medium py-3 px-10 rounded-md transition duration-300">
                 Discover Us
-              </button>
+              </Link>
             </div>
           </div>
         </div>

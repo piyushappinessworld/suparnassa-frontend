@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Solutions = () => {
   const sol = [
@@ -70,9 +71,9 @@ const Solutions = () => {
         </div>
 
         <div className="text-center mt-12 md:mt-16">
-          <button className="bg-[#CE8943] text-white font-medium py-[14px] px-[20px] rounded-[8px] transition duration-300">
+          <Link href="/contact" className="bg-[#CE8943] text-white font-medium py-[14px] px-[20px] rounded-[8px] transition duration-300">
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
     </section>

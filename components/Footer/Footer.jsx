@@ -92,7 +92,7 @@ export default function Footer() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/hero"
+                      href="/"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Hero Section
@@ -100,7 +100,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/who-we-are"
+                      href="/"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Who we are
@@ -108,7 +108,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/service"
+                      href="/"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Service
@@ -116,7 +116,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/projects"
+                      href="/"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Projects
@@ -124,7 +124,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/testimonials"
+                      href="/"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Testimonials
@@ -141,7 +141,7 @@ export default function Footer() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/our-story"
+                      href="/about-us"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Our Story
@@ -157,7 +157,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/how-it-works"
+                      href="/about-us"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       How It Works
@@ -165,7 +165,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/our-team"
+                      href="/about-us"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Our Team
@@ -173,7 +173,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/our-clients"
+                      href="/about-us"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Our Clients
@@ -190,7 +190,7 @@ export default function Footer() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/gallery"
+                      href="/project"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Gallery
@@ -207,7 +207,7 @@ export default function Footer() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/contact-form"
+                      href="/contact"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Contact Form
@@ -215,7 +215,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/our-offices"
+                      href="/contact"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
                       Our Offices
@@ -233,35 +233,32 @@ export default function Footer() {
             <p className="text-[#242424] text-[14px] font-medium">
               &copy;2025 Suparnassa. All Rights Reserved.
             </p>
-            <Link
-              href="/terms"
-              className="font-medium text-[#242424] text-[14px]"
-            >
+            <Link href="/" className="font-medium text-[#242424] text-[14px]">
               Terms & Conditions
             </Link>
           </div>
           <div className="flex flex-col md:flex-row items-center gap-4">
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="/contact"
                 className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] mb-[10px] md:mb-0 flex items-center justify-center rounded-full"
               >
                 <FaFacebookF className="h-5 w-5 text-[#CE8943]" />
               </Link>
               <Link
-                href="#"
+                href="/contact"
                 className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] flex items-center justify-center rounded-full"
               >
                 <FaLinkedin className="h-5 w-5 text-[#CE8943]" />
               </Link>
               <Link
-                href="#"
+                href="/contact"
                 className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] flex items-center justify-center rounded-full"
               >
                 <FaTwitter className="h-5 w-5 text-[#CE8943]" />
               </Link>
               <Link
-                href="#"
+                href="/contact"
                 className="bg-[#f8e1cf] w-[60px] h-[60px] md:w-[40px] md:h-[40px] flex items-center justify-center rounded-full"
               >
                 <FaYoutube className="h-5 w-5 text-[#CE8943]" />

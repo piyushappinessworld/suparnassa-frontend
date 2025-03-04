@@ -29,7 +29,7 @@ const Navbar = () => {
         <p className="text-[12px] lg:text-[14px] flex justify-center items-center gap-[6px] text-[#242424]">
           ✨Discover Your Dream Property with Suparnassa
           <Link
-            href="/learn-more"
+            href="/projects"
             className="text-[12px] lg:text-[14px] underline ml-1 text-[#CE8943]"
           >
             Learn More
