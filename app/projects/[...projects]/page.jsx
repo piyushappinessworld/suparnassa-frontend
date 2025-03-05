@@ -46,7 +46,7 @@ const page = () => {
           {data?.details}
         </p>
       </div>
-      <Contact />
+      <Contact subject={data?.name} />
     </div>
   );
 };
