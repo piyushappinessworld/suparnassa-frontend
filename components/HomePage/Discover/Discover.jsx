@@ -24,23 +24,23 @@ export default function Discover() {
             {/* Description Paragraphs */}
             <div className="w-full md:w-[75%] mt-8 md:mt-10 space-y-6 text-[#999999]">
               <p className="text-[14px] lg:text-[20px] leading-relaxed">
-                At SuparnaSSa, we believe that great design is a blend of
-                creativity, functionality, and purpose. Founded in 2010 by Mr.
-                Ashok Kumar, a seasoned Interior Designer, and Mrs. Kavitha
-                Ashok, a visionary Architect, our firm has transformed nearly
-                150+ spaces into inspiring realities.
+                At Suparnassa, we believe that architecture and interior design
+                are more than just structures and aesthetics—they are
+                experiences. Our mission is to create innovative, functional,
+                and timeless spaces that reflect your vision while enhancing
+                comfort and functionality.
               </p>
 
               <p className="text-[14px] lg:text-[20px] leading-relaxed">
-                From luxurious residential bungalows to sophisticated office
-                spaces, boutiques, apartments, and restaurants, we bring a
-                unique design perspective to every project. Our approach
-                encourages "outside-the-box" thinking, ensuring innovative,
-                customized solutions tailored to our clients' needs.
+                Suparnassa is a team of passionate architects and interior
+                designers dedicated to crafting spaces that inspire. With a keen
+                eye for detail and a deep understanding of materials, form, and
+                function, we blend creativity with technical expertise to bring
+                your dream spaces to life.
               </p>
               <p className="text-[14px] lg:text-[20px] leading-relaxed">
-                Let's bring your dream space to life—with elegance, precision,
-                and passion.
+                Let’s create something extraordinary together. Connect with
+                Suparnassa today and bring your vision to life!
               </p>
             </div>
             <div className="w-full md:w-[75%] mt-5 md:mt-12">

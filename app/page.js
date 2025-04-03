@@ -1,3 +1,4 @@
+import Experience from "@/components/AboutUsPage/Experience/Experience";
 import Banner from "@/components/HomePage/Banner/Banner";
 import Discover from "@/components/HomePage/Discover/Discover";
 import Properties from "@/components/HomePage/Properties/Properties";
@@ -11,7 +12,8 @@ export default function Home() {
       <Discover />
       <Solutions />
       <Properties />
-      <Reviews />
+      {/* <Reviews /> */}
+      <Experience />
     </div>
   );
 }

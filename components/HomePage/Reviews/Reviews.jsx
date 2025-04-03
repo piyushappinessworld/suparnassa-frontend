@@ -148,7 +148,7 @@ export default function Reviews() {
         {/* Subheading */}
         <p className="text-[14px] md:text-[16px] text-[#999999] mb-[40px] md:mb-[60px]">
           Read the success stories and heartfelt testimonials from our valued
-          clients. Discover why they chose Estatein for their real estate needs.
+          clients.
         </p>
 
         {/* Testimonials grid/carousel */}

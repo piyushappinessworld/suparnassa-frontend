@@ -19,12 +19,11 @@ export default function Footer() {
               Start Your Journey Today
             </h2>
             <p className="w-100% lg:w-[67%] text-[16px]">
-              Your dream property is just a click away. Whether you&apos;re
-              looking for a new home, a strategic investment, or expert real
-              estate advice, Estatein is here to assist you every step of the
-              way. Take the first step towards your real estate goals and
-              explore our available properties or get in touch with our team for
-              personalized assistance.
+              Whether you're looking to transform your home, enhance your
+              workspace, or bring a unique design vision to life, we’re here to
+              assist you every step of the way. Take the first step towards
+              creating a beautifully designed space—explore our services or get
+              in touch for personalized guidance.
             </p>
           </div>
           {/* Contact Button (Desktop) */}
@@ -103,7 +102,7 @@ export default function Footer() {
                       href="/#services"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
-                      Service
+                      Our Services
                     </Link>
                   </li>
                   <li>
@@ -144,7 +143,7 @@ export default function Footer() {
                       href="/about-us#values"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
-                      Our Values
+                      Our Approach
                     </Link>
                   </li>
                   <li>
@@ -160,7 +159,7 @@ export default function Footer() {
                       href="/about-us#experience"
                       className="text-gray-700 hover:text-[#c9a36f] whitespace-nowrap"
                     >
-                      How It Works
+                      Why choose Suparnassa?
                     </Link>
                   </li>
                   <li>
@@ -250,7 +249,7 @@ export default function Footer() {
               &copy;2025 Suparnassa. All Rights Reserved.
             </p>
           </div>
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          {/* <div className="flex flex-col md:flex-row items-center gap-4">
             <div className="flex space-x-4">
               <Link
                 href="/contact"
@@ -281,7 +280,7 @@ export default function Footer() {
                 <FaYoutube className="h-5 w-5 text-[#CE8943]" />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

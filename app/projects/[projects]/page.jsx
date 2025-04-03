@@ -15,6 +15,7 @@ const page = () => {
         const response = await axios.get(
           `${process.env.NEXT_PUBLIC_API_URL}/properties`
         );
+        console.log(response);
         setData(response.data);
       } catch (err) {
         console.error("Error fetching properties:", err);

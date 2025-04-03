@@ -6,32 +6,32 @@ import Link from "next/link";
 const Solutions = () => {
   const sol = [
     {
-      title: "Planning",
+      title: "Custom Home & Renovation Design",
       img1: "/banner/sol1.svg",
       img2: "/banner/s1.svg",
     },
     {
-      title: "Feasibility Studies",
+      title: "Commercial & Office Spaces",
       img1: "/banner/s2.svg",
       img2: "/banner/sol4.svg",
     },
     {
-      title: "Cost Estimation",
+      title: "Landscape & Urban Planning",
       img1: "/banner/s3.svg",
       img2: "/banner/sol5.svg",
     },
     {
-      title: "Cost Estimation",
+      title: "Residential & Hospitality Interiors",
       img1: "/banner/s4.svg",
       img2: "/banner/sol2.svg",
     },
     {
-      title: "Construction Administration",
+      title: "Corporate & Retail Interiors",
       img1: "/banner/s5.svg",
       img2: "/banner/sol3.svg",
     },
     {
-      title: "Project Execution",
+      title: "Sustainable & Smart Design",
       img1: "/banner/s6.svg",
       img2: "/banner/sol6.svg",
     },
@@ -48,7 +48,7 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="w-full flex flex-wrap gap-[22px] lg:gap-x-[66px] lg:gap-y-[45px] items-center justify-center">
+        <div className="w-full flex flex-wrap gap-[22px] lg:gap-x-[66px] lg:gap-y-[45px] items-center justify-center text-center">
           {sol?.map((item, i) => {
             return (
               <div

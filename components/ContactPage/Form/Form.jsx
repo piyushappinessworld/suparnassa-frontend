@@ -13,9 +13,9 @@ const Form = () => {
     message: "",
     terms: false,
   });
-  const [isLoading, setIsLoading] = useState(false); 
+  const [isLoading, setIsLoading] = useState(false);
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
-  const [showErrorAlert, setShowErrorAlert] = useState(false); 
+  const [showErrorAlert, setShowErrorAlert] = useState(false);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -27,7 +27,7 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true); 
+    setIsLoading(true);
 
     try {
       const response = await fetch(
@@ -206,9 +206,19 @@ const Form = () => {
                         <option value="" disabled>
                           Select Inquiry Type
                         </option>
-                        <option value="general">General Inquiry</option>
-                        <option value="support">Support</option>
-                        <option value="sales">Sales</option>
+                        <option value="consultation">Consultation</option>
+                        <option value="interior-design">
+                          Interior Design Services
+                        </option>
+                        <option value="renovation">
+                          Renovation & Remodeling
+                        </option>
+                        <option value="furniture-decor">
+                          Furniture & Decor Selection
+                        </option>
+                        <option value="space-planning">
+                          Space Planning & Layout
+                        </option>
                       </select>
                       <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
                         <ChevronDown className="h-5 w-5 text-gray-500" />

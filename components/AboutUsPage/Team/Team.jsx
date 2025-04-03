@@ -3,29 +3,22 @@ import { Twitter, Send } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Max Mitchell",
-    role: "Founder",
-    image: "/team/t1.svg",
+    name: "Ashok Kumar",
+    role: "Interior designer",
+    image: "/team/member1.jpeg",
   },
   {
-    name: "Sarah Johnson",
-    role: "Chief Real Estate Officer",
-    image: "/team/t2.svg",
-  },
-  {
-    name: "David Brown",
-    role: "Head of Property Management",
-    image: "/team/t3.svg",
-  },
-  {
-    name: "Michael Turner",
-    role: "Legal Counsel",
-    image: "/team/t4.svg",
+    name: "Kavita Ashok",
+    role: "Architect",
+    image: "/team/member2.jpeg",
   },
 ];
 const Teams = () => {
   return (
-    <div id="team" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:pt-[35px] md:pb-[70px]">
+    <div
+      id="team"
+      className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:pt-[35px] md:pb-[70px]"
+    >
       <div className="">
         <div className="w-full">
           {/* Decorative elements */}
@@ -58,7 +51,7 @@ const Teams = () => {
                         <img
                           src={member.image}
                           alt={member.name}
-                          className="w-full h-[220px] object-cover object-center rounded-[12px]"
+                          className="w-full h-[320px] object-cover object-center rounded-[12px]"
                         />
                       </div>
                       <div className="absolute bottom-[5px] left-1/2 transform -translate-x-1/2">
@@ -75,21 +68,6 @@ const Teams = () => {
                       <p className="text-[14px] md:text-[16px] text-[#999999] mt-1">
                         {member.role}
                       </p>
-
-                      <div className="mt-6">
-                        <button className="flex items-center justify-between bg-[#1A1A1A] border border-[#262626] text-white rounded-full px-[15px] py-[12px] w-full">
-                          <span className="text-[14px] md:text-[16px]">
-                            Say Hello 👋
-                          </span>
-                          <span className="bg-[#CE8943] rounded-full w-[36px] h-[36px] flex items-center justify-center">
-                            <img
-                              src="/footer/send.svg"
-                              alt="stars"
-                              className=""
-                            />
-                          </span>
-                        </button>
-                      </div>
                     </div>
                   </div>
                 ))}

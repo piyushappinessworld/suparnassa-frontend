@@ -2,7 +2,10 @@ import React from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 const Address = () => {
   return (
-    <div id="office" className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]">
+    <div
+      id="office"
+      className="w-full mx-auto px-[16px] md:px-[80px] py-[40px] md:py-[35px]"
+    >
       <div className="">
         <div className="w-full">
           {/* Decorative elements */}
@@ -76,13 +79,13 @@ const Address = () => {
                     className="inline-flex items-center bg-gray-900 text-white rounded-full px-6 py-3 gap-2"
                   >
                     <img src="/address/phone.svg" alt="stars" className="" />
-                    Bangalore
+                    Bangalore - 560094
                   </a>
                 </div>
 
                 <div>
                   <a
-                    href="https://maps.google.com"
+                    href="https://maps.app.goo.gl/szkxGKfx84N9Noo17"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-[#CE8943] text-white text-[14px] text-center font-medium py-4 px-6 rounded-lg transition-colors"

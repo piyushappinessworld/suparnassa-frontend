@@ -2,19 +2,20 @@ import React from "react";
 // Stats data for Our Journey section
 const stats = [
   {
-    value: "Discover a World of Possibilities",
-    label:
-      "Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location,",
+    value: "Experience & Expertise",
+    label: "A team of skilled professionals with a strong design sensibility",
   },
   {
-    value: "Narrowing Down Your Choices",
-    label:
-      "Once you've found properties that catch your eye, save them to your account or make a shortlist. This allows you to compare and revisit your favorites as you make your decision.",
+    value: "Personalized Designs",
+    label: "Tailored solutions to meet your unique requirements",
   },
   {
-    value: "Personalized Guidance",
-    label:
-      "Have questions about a property or need more information? Our dedicated team of real estate experts is just a call or message away.",
+    value: "Sustainability Focus",
+    label: "Eco-friendly and energy-efficient design practices",
+  },
+  {
+    value: "Turnkey Solutions",
+    label: "From planning to execution, we handle it all",
   },
 ];
 const Experience = () => {
@@ -32,14 +33,13 @@ const Experience = () => {
 
           {/* Heading */}
           <h2 className="text-[28px] md:text-[38px] font-semibold text-[#242424] mb-[8px] md:mb-[10px]">
-            Navigating the Suparnassa Experience
+            Why Choose Suparnassa?
           </h2>
 
           {/* Description */}
           <p className="w-2/3 text-[14px] md:text-[16px] font-medium text-[#999999] mb-[30px] md:mb-[50px]">
-            At Estatein, we've designed a straightforward process to help you
-            find and purchase your dream property with ease. Here's a
-            step-by-step guide to how it all works.
+            Let’s create something extraordinary together. Connect with
+            Suparnassa today and bring your vision to life!
           </p>
 
           {/* Stats */}

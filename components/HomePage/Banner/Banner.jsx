@@ -5,10 +5,18 @@ import Link from "next/link";
 import { IoArrowBack, IoArrowForwardOutline } from "react-icons/io5";
 export default function Banner() {
   const images = [
-    "/banner/banner.png",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "/carousel/property (1).jpg",
+    "/carousel/property (2).jpg",
+    "/carousel/property (3).jpg",
+    "/carousel/property (4).jpg",
+    "/carousel/property (5).jpg",
+    "/carousel/property (6).jpg",
+    "/carousel/property (7).jpg",
+    "/carousel/property (8).jpg",
+    "/carousel/property (9).jpg",
+    "/carousel/property (10).jpg",
+    "/carousel/property (11).jpg",
+    "/carousel/property (12).jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -53,11 +61,11 @@ export default function Banner() {
         <div className="px-6 py-[30px] lg:py-[172px] md:px-12 lg:px-[80px] flex items-center">
           <div className="w-full">
             <h1 className="text-[28px] md:text-[35px] lg:text-[46px] font-semibold text-[#242424] mb-6">
-              Discover Your Dream Property with Suparnassa
+              Designing Spaces, Defining Lifestyles with Suparnassa
             </h1>
             <p className="text-[#242424] font-medium mb-8 text-[16px]">
-              Your journey to finding the perfect property begins here. Explore
-              our listings to find the home that matches your dreams.
+              Let’s create something extraordinary together. Connect with
+              Suparnassa today and bring your vision to life!
             </p>
             <Link
               href="/projects"

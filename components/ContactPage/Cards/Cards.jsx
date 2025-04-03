@@ -22,34 +22,22 @@ const contactCards = [
   },
   {
     icon: "/cards/c3.svg",
-    content: "Main Headquarters",
-    link: "#",
+    content: "3rd Main, New BEL Road, RMV 2nd Stage, 560094, Bangalore",
+    link: "https://maps.app.goo.gl/szkxGKfx84N9Noo17",
   },
   {
     icon: "/cards/c4.svg",
     content: (
       <div className="flex items-center gap-4">
         <span>Instagram</span>
-        <span>LinkedIn</span>
-        <span>Facebook</span>
       </div>
     ),
     link: null,
     socialLinks: [
       {
-        name: "Instagram",
+        name: "www.suparnassa.com",
         icon: <Instagram className="h-5 w-5" />,
-        url: "https://instagram.com",
-      },
-      {
-        name: "LinkedIn",
-        icon: <Linkedin className="h-5 w-5" />,
-        url: "https://linkedin.com",
-      },
-      {
-        name: "Facebook",
-        icon: <Facebook className="h-5 w-5" />,
-        url: "https://facebook.com",
+        url: "",
       },
     ],
   },
@@ -63,7 +51,7 @@ const Cards = () => {
             Get in Touch with Suparnassa
           </h2>
           <p className="text-[14px] md:text-[16px] text-[#242424] max-w-7xl">
-            Welcome to Estatein's Contact Us page. We're here to assist you with
+            Welcome to Suparnassa's Contact Us page. We're here to assist you with
             any inquiries, requests, or feedback you may have. Whether you're
             looking to explore investment opportunities, or simply want to
             connect, we're just a message away. Reach out to us, and let's start

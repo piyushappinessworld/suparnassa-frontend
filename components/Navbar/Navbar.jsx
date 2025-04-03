@@ -27,7 +27,7 @@ const Navbar = () => {
         className="bg-cover bg-center px-[80px] py-[14px] text-center border-b border-[rgba(115,115,115,0.37)]"
       >
         <p className="text-[12px] lg:text-[14px] flex justify-center items-center gap-[6px] text-[#242424]">
-          ✨Discover Your Dream Property with Suparnassa
+          ✨Designing Spaces, Defining Lifestyles with Suparnassa
           <Link
             href="/projects"
             className="text-[12px] lg:text-[14px] underline ml-1 text-[#CE8943]"
